@@ -37023,3 +37023,37 @@ BattleMoveAnims['trailblaze'] = {anim: BattleMoveAnims['powerwhip'].anim};
 BattleMoveAnims['tripledive'] = {anim: BattleMoveAnims['dive'].anim};
 BattleMoveAnims['hydrosteam'] = {anim: BattleMoveAnims['steameruption'].anim};
 BattleMoveAnims['psyblade'] = {anim: BattleMoveAnims['psychocut'].anim};
+BattleMoveAnims['rocketrush'] = {anim: BattleMoveAnims['extremespeed'].anim};
+BattleMoveAnims['breakthrough'] = {anim: BattleMoveAnims['psywave'].anim};
+BattleMoveAnims['ancientburst'] = {anim: BattleMoveAnims['dragonenergy'].anim};
+BattleMoveAnims['shatter'] = {anim: BattleMoveAnims['stompingtantrum'].anim};
+BattleMoveAnims['springcleaning'] = {anim: BattleMoveAnims['faketears'].anim};
+BattleMoveAnims['roselance'] = {
+	anim(scene, [attacker, defender]) {
+		BattleMoveAnims['drillrun'].anim(scene, [attacker, defender]);
+		BattleMoveAnims['petalblizzard'].anim(scene, [attacker, defender]);
+	},
+BattleMoveAnims['echoflare'] = {
+	anim(scene, [attacker, defender]) {
+		BattleMoveAnims['hypervoice'].anim(scene, [attacker, defender]);
+		BattleMoveAnims['overheat'].anim(scene, [attacker, defender]);
+	},
+BattleMoveAnims['crystalburst'] = {
+	anim(scene, [attacker, defender]) {
+		BattleMoveAnims['shellsmash'].anim(scene, [attacker, defender]);
+		BattleMoveAnims['diamondstorm'].anim(scene, [attacker, defender]);
+	},
+BattleMoveAnims['mindfog'] = {
+	anim(scene, [attacker, defender]) {
+		BattleMoveAnims['clearsmog'].anim(scene, [attacker, defender]);
+		BattleMoveAnims['confuseray'].anim(scene, [attacker, defender]);
+	},
+BattleMoveAnims['blessedhammer'] = {
+	anim(scene, [attacker, defender]) {
+		BattleMoveAnims['bodyslam'].anim(scene, [attacker, defender]);
+		BattleMoveAnims['cosmicpower'].anim(scene, [attacker, defender]);
+	},
+BattleMoveAnims['scorchedearth'] = {
+	anim(scene, [attacker, defender]) {
+		BattleMoveAnims['drillrun'].anim(scene, [attacker, defender]);
+		BattleMoveAnims['petalblizzard'].anim(scene, [attacker, defender]);
